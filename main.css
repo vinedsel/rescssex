@@ -14,9 +14,11 @@ p {
 .row {
   position: relative;
   display: inline-flex;
-  flex-flow: wrap;
+  flex-flow: space-around;
   justify-content: center;
   padding-bottom: 3%;
+  /* padding-left: 20%;
+  padding-right: 20%; */
 }
 
 img {
