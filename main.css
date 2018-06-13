@@ -6,3 +6,10 @@ h1 {
   text-align: center;
   color: darkorange;
 }
+
+.movie1 {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+
+}

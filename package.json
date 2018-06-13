@@ -1,0 +1,22 @@
+{
+  "name": "rescssex",
+  "version": "1.0.0",
+  "description": "A responsive CSS example spanning multiple devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinedsel/rescssex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinedsel/rescssex/issues"
+  },
+  "homepage": "https://github.com/vinedsel/rescssex#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
