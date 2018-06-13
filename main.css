@@ -1,8 +1,5 @@
-.container {
-  margin: 0%;
-  justify-content: center;
-  height: 1300px;
-  background-color: darkslategrey;
+.container-fluid {
+  background-color: #2F4F4F;
 }
 
 p {
@@ -17,7 +14,7 @@ p {
 .row {
   position: relative;
   display: inline-flex;
-  flex-flow: row;
+  flex-flow: wrap;
   justify-content: center;
   padding-bottom: 3%;
 }
@@ -35,8 +32,10 @@ img {
 }
 
 .col-lg-6 {
+  justify-content: center;
   position: relative;
   display: inline-flex;
+  padding-bottom: 3%;
 }
 
 /* @media screen and (min-width: 1200px) {
