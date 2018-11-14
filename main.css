@@ -1,10 +1,15 @@
 .container-fluid {
   position: relative;
   justify-content: center;
-  margin: 0 auto;
   background-color: #2F4F4F;
-  height: 1200px;
-  /* max-width: 70%; */
+  height: 1700px;
+}
+
+.container {
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 p {
@@ -18,32 +23,55 @@ p {
 
 img {
   position: relative;
+  justify-content: center;
+  display: inline-block;
   width: 250px;
   height: 200px;
-  display: inline-flex;
-  /* padding: 1.5%; */
 }
 
-.col-3 {
+/* .col-3 {
   position: relative;
-  display: flex;
-}
+  justify-content: center;
+  margin: 0 auto;
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 200px;
+} */
 
 .img-responsive {
-  width: 100%;
-  height: 100%;
-  padding: 2%;
-  display: inline-flex;
+  /* width: 100%;
+  height: 100%; */
+  padding: 8%;
   justify-content: center;
+  width: 250px;
+  height: 200px;
 }
 
 .row {
   position: relative;
-  padding-bottom: 3%;
-  display: inline-flex;
+  justify-content: center;
+  /* padding-bottom: 3%; */
+  display: flex;
+}
+
+.container2 {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
 }
 
 .col-sm-6 {
   position: relative;
-  display: inline-flex;
+  justify-content: center;
+  display: inline-block;
+
+}
+
+video {
+  width: 500px;
+  height: 260px;
+  padding-right: 2%;
+  padding-left: 2%;
 }
